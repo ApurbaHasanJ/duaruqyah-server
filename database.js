@@ -1,5 +1,5 @@
 const sqlite3 = require("sqlite3").verbose();
-const dbName = "./dua_main.sqlite";
+const dbName = "dua_main.sqlite";
 
 let db = new sqlite3.Database(dbName, (err) => {
   if (err) {
